@@ -1,0 +1,42 @@
+# Large data dumps & archives
+dblp_v14.json
+b2b.zip
+*.zip
+*.tar.gz
+*.pdf
+*.pptx
+step897.html
+
+# Node & Next.js
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+build/
+dist/
+.turbo/
+package-lock.json
+
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.log
+venv/
+env/
+.venv/
+
+# Environment files
+.env
+**/.env
+.env.local
+**/.env.local
+.env.*.local
+
+# Operating System & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

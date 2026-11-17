@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+
+# Large data files — mount as volumes instead
+dblp_v14.json
+*.json
+
+# Dev artifacts
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Editor
+.vscode/
+.idea/
+*.swp

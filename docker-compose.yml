@@ -1,0 +1,105 @@
+version: "3.9"
+
+# ─────────────────────────────────────────────────────────────────────────────
+# GraphIQ B2B Influencer Platform — Docker Compose
+#
+# Services:
+#   backend  — FastAPI + all algorithms (port 8000)
+#   redis    — Spread-evaluation cache  (internal only)
+#   neo4j    — Graph database UI + Bolt (ports 7474, 7687)
+#
+# Usage:
+#   docker-compose up --build          # first run / after code change
+#   docker-compose up -d               # detached
+#   docker-compose logs -f backend     # tail backend logs
+#   docker-compose down -v             # stop + remove volumes
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+
+  # ── FastAPI Backend ────────────────────────────────────────────────────
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: graphiq_backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    environment:
+      # Override Redis/Neo4j hosts to point at service names inside compose network
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - NEO4J_URI=neo4j://neo4j:7687
+    depends_on:
+      redis:
+        condition: service_healthy
+      neo4j:
+        condition: service_healthy
+    networks:
+      - graphiq_net
+    volumes:
+      # Mount CSV data so you can refresh datasets without rebuilding the image
+      - ./backend/b2b_nodes.csv:/app/b2b_nodes.csv:ro
+      - ./backend/b2b_edges.csv:/app/b2b_edges.csv:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 90s
+
+  # ── Redis Cache ────────────────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: graphiq_redis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    networks:
+      - graphiq_net
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── Neo4j Graph Database ───────────────────────────────────────────────
+  neo4j:
+    image: neo4j:5-community
+    container_name: graphiq_neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474"   # Neo4j Browser (HTTP)
+      - "7687:7687"   # Bolt protocol
+    environment:
+      - NEO4J_AUTH=neo4j/graphiq_neo4j_2024
+      - NEO4J_PLUGINS=["apoc"]
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+      - NEO4J_dbms_memory_heap_initial__size=512m
+      - NEO4J_dbms_memory_heap_max__size=1G
+    networks:
+      - graphiq_net
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:7474"]
+      interval: 20s
+      timeout: 10s
+      retries: 10
+      start_period: 60s
+
+# ── Networks ───────────────────────────────────────────────────────────────
+networks:
+  graphiq_net:
+    driver: bridge
+
+# ── Named Volumes ──────────────────────────────────────────────────────────
+volumes:
+  redis_data:
+  neo4j_data:
+  neo4j_logs:
