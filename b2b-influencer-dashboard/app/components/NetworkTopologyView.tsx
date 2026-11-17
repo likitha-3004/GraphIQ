@@ -202,7 +202,7 @@ export const CATEGORY_ALGO_PRESETS: Record<string, Record<string, SeedNodeData[]
       { id: 'user_18', niche: 'TikTok Influencer', followers: 1050, cost: 5000, influence: 21.9, efficiency: 1.3740, centrality: '0.0125 (Degree)', community: 'Cluster #2', x: 225, y: 345, r: 24, color: '#fae280' },
       { id: 'user_47', niche: 'Instagram Creator', followers: 620, cost: 5000, influence: 21.2, efficiency: 1.3700, centrality: '0.0110 (Degree)', community: 'Cluster #3', x: 195, y: 245, r: 20, color: '#d9c67c' },
       { id: 'user_5', niche: 'Cross-Platform Creator', followers: 810, cost: 5000, influence: 20.8, efficiency: 1.3650, centrality: '0.0116 (Degree)', community: 'Cluster #4', x: 265, y: 155, r: 22, color: '#c9c6bf' },
-      { id: 'user_10', niche: 'General Social Media Influencer', followers: 990, cost: 5000, influence: 20.1, efficiency: 1.3600, centrality: '0.0121 (Degree)', community: 'Cluster #5', x: 380, y: 260, r: 23, color: '#f3db7a' },
+      { id: 'user_10', niche: 'General Social Media Influencer', followers: 990, cost: 5000, influence: 20.1, efficiency: 1.3600, centrality: '0.0121 (Degree)', community: 'Cluster #5', x: 380, y: 400, r: 23, color: '#f3db7a' },
     ],
     instagram: [
       { id: 'user_3', niche: 'Instagram Creator', followers: 734, cost: 5000, influence: 24.9, efficiency: 1.3850, centrality: '0.0120 (Degree)', community: 'Cluster #1', x: 380, y: 120, r: 22, color: '#d9c67c' },
@@ -214,7 +214,7 @@ export const CATEGORY_ALGO_PRESETS: Record<string, Record<string, SeedNodeData[]
       { id: 'user_778', niche: 'Instagram Creator', followers: 6800, cost: 5000, influence: 68.0, efficiency: 1.3600, centrality: '0.0125 (Degree)', community: 'Cluster #2', x: 225, y: 345, r: 23, color: '#efdb8f' },
       { id: 'user_912', niche: 'Instagram Creator', followers: 4900, cost: 5000, influence: 49.0, efficiency: 0.9800, centrality: '0.0110 (Degree)', community: 'Cluster #3', x: 195, y: 245, r: 21, color: '#fae280' },
       { id: 'user_1402', niche: 'Instagram Creator', followers: 5100, cost: 5000, influence: 51.0, efficiency: 1.0200, centrality: '0.0116 (Degree)', community: 'Cluster #4', x: 265, y: 155, r: 22, color: '#c9c6bf' },
-      { id: 'user_1888', niche: 'Instagram Creator', followers: 7300, cost: 5000, influence: 73.0, efficiency: 1.4600, centrality: '0.0121 (Degree)', community: 'Cluster #5', x: 380, y: 260, r: 24, color: '#d9c67c' },
+      { id: 'user_1888', niche: 'Instagram Creator', followers: 7300, cost: 5000, influence: 73.0, efficiency: 1.4600, centrality: '0.0121 (Degree)', community: 'Cluster #5', x: 380, y: 400, r: 24, color: '#d9c67c' },
     ],
     tiktok: [
       { id: 'user_7', niche: 'TikTok Influencer', followers: 1120, cost: 5000, influence: 25.8, efficiency: 1.3890, centrality: '0.0130 (Degree)', community: 'Cluster #1', x: 380, y: 120, r: 22, color: '#fae280' },
@@ -226,7 +226,7 @@ export const CATEGORY_ALGO_PRESETS: Record<string, Record<string, SeedNodeData[]
       { id: 'user_152', niche: 'TikTok Influencer', followers: 7400, cost: 5000, influence: 74.0, efficiency: 1.4800, centrality: '0.0125 (Degree)', community: 'Cluster #2', x: 225, y: 345, r: 24, color: '#efdb8f' },
       { id: 'user_630', niche: 'TikTok Influencer', followers: 5800, cost: 5000, influence: 58.0, efficiency: 1.1600, centrality: '0.0110 (Degree)', community: 'Cluster #3', x: 195, y: 245, r: 23, color: '#fae280' },
       { id: 'user_890', niche: 'TikTok Influencer', followers: 6400, cost: 5000, influence: 64.0, efficiency: 1.2800, centrality: '0.0116 (Degree)', community: 'Cluster #4', x: 265, y: 155, r: 23, color: '#c9c6bf' },
-      { id: 'user_1104', niche: 'TikTok Influencer', followers: 8100, cost: 5000, influence: 81.0, efficiency: 1.6200, centrality: '0.0121 (Degree)', community: 'Cluster #5', x: 380, y: 260, r: 24, color: '#fae280' },
+      { id: 'user_1104', niche: 'TikTok Influencer', followers: 8100, cost: 5000, influence: 81.0, efficiency: 1.6200, centrality: '0.0121 (Degree)', community: 'Cluster #5', x: 380, y: 400, r: 24, color: '#fae280' },
     ],
     youtube: [
       { id: 'user_13', niche: 'YouTube Content Creator', followers: 940, cost: 5000, influence: 22.8, efficiency: 1.3780, centrality: '0.0122 (Degree)', community: 'Cluster #1', x: 380, y: 120, r: 22, color: '#efdb8f' },
@@ -238,7 +238,7 @@ export const CATEGORY_ALGO_PRESETS: Record<string, Record<string, SeedNodeData[]
       { id: 'user_1204', niche: 'YouTube Content Creator', followers: 5800, cost: 5000, influence: 58.0, efficiency: 1.1600, centrality: '0.0125 (Degree)', community: 'Cluster #2', x: 225, y: 345, r: 23, color: '#fae280' },
       { id: 'user_1450', niche: 'YouTube Content Creator', followers: 6300, cost: 5000, influence: 63.0, efficiency: 1.2600, centrality: '0.0110 (Degree)', community: 'Cluster #3', x: 195, y: 245, r: 23, color: '#d9c67c' },
       { id: 'user_1680', niche: 'YouTube Content Creator', followers: 7700, cost: 5000, influence: 77.0, efficiency: 1.5400, centrality: '0.0116 (Degree)', community: 'Cluster #4', x: 265, y: 155, r: 24, color: '#c9c6bf' },
-      { id: 'user_1920', niche: 'YouTube Content Creator', followers: 8900, cost: 5000, influence: 89.0, efficiency: 1.7800, centrality: '0.0121 (Degree)', community: 'Cluster #5', x: 380, y: 260, r: 25, color: '#efdb8f' },
+      { id: 'user_1920', niche: 'YouTube Content Creator', followers: 8900, cost: 5000, influence: 89.0, efficiency: 1.7800, centrality: '0.0121 (Degree)', community: 'Cluster #5', x: 380, y: 400, r: 25, color: '#efdb8f' },
     ],
     'cross-platform': [
       { id: 'user_1', niche: 'Cross-Platform Creator', followers: 684, cost: 5000, influence: 26.1, efficiency: 1.3922, centrality: '0.0118 (Degree)', community: 'Cluster #1', x: 380, y: 120, r: 21, color: '#c9c6bf' },
@@ -250,7 +250,7 @@ export const CATEGORY_ALGO_PRESETS: Record<string, Record<string, SeedNodeData[]
       { id: 'user_412', niche: 'Cross-Platform Creator', followers: 4900, cost: 5000, influence: 49.0, efficiency: 0.9800, centrality: '0.0125 (Degree)', community: 'Cluster #2', x: 225, y: 345, r: 22, color: '#fae280' },
       { id: 'user_840', niche: 'Cross-Platform Creator', followers: 5600, cost: 5000, influence: 56.0, efficiency: 1.1200, centrality: '0.0110 (Degree)', community: 'Cluster #3', x: 195, y: 245, r: 23, color: '#efdb8f' },
       { id: 'user_1050', niche: 'Cross-Platform Creator', followers: 6200, cost: 5000, influence: 62.0, efficiency: 1.2400, centrality: '0.0116 (Degree)', community: 'Cluster #4', x: 265, y: 155, r: 23, color: '#d9c67c' },
-      { id: 'user_1320', niche: 'Cross-Platform Creator', followers: 7100, cost: 5000, influence: 71.0, efficiency: 1.4200, centrality: '0.0121 (Degree)', community: 'Cluster #5', x: 380, y: 260, r: 24, color: '#c9c6bf' },
+      { id: 'user_1320', niche: 'Cross-Platform Creator', followers: 7100, cost: 5000, influence: 71.0, efficiency: 1.4200, centrality: '0.0121 (Degree)', community: 'Cluster #5', x: 380, y: 400, r: 24, color: '#c9c6bf' },
     ],
   },
 };
@@ -515,8 +515,8 @@ export function NetworkTopologyView({ currency = 'INR', token }: NetworkTopology
 
     const pod1: SeedNodeData[] = pod1Ids.map((id, i) => {
       const angle = (i / pod1Ids.length) * 2 * Math.PI - Math.PI / 2;
-      const nx = Math.round(hub0.x + 88 * Math.cos(angle));
-      const ny = Math.round(hub0.y + 88 * Math.sin(angle));
+      const nx = Math.round(hub0.x + 95 * Math.cos(angle));
+      const ny = Math.round(hub0.y + 95 * Math.sin(angle));
       const fol = Math.round(hub0.followers * 0.12 + (i + 1) * 2400);
       const inf = Math.round(hub0.influence * 0.15 + (i + 1) * 120);
       return {
@@ -530,8 +530,8 @@ export function NetworkTopologyView({ currency = 'INR', token }: NetworkTopology
         community: 'Sampled Receptive Pod #1',
         x: nx,
         y: ny,
-        r: 15,
-        color: hub0.color || '#f3db7a',
+        r: 18,
+        color: '#d9c67c',
         growth: '+14.2%',
         isNeighbor: true,
         parentHubId: hub0.id,
@@ -540,8 +540,8 @@ export function NetworkTopologyView({ currency = 'INR', token }: NetworkTopology
 
     const pod2: SeedNodeData[] = (seeds.length >= 2 ? pod2Ids : []).map((id, i) => {
       const angle = (i / pod2Ids.length) * 2 * Math.PI - Math.PI / 2;
-      const nx = Math.round(hub1.x + 88 * Math.cos(angle));
-      const ny = Math.round(hub1.y + 88 * Math.sin(angle));
+      const nx = Math.round(hub1.x + 95 * Math.cos(angle));
+      const ny = Math.round(hub1.y + 95 * Math.sin(angle));
       const fol = Math.round(hub1.followers * 0.14 + (i + 1) * 2100);
       const inf = Math.round(hub1.influence * 0.16 + (i + 1) * 110);
       return {
@@ -555,8 +555,8 @@ export function NetworkTopologyView({ currency = 'INR', token }: NetworkTopology
         community: 'Sampled Receptive Pod #2',
         x: nx,
         y: ny,
-        r: 15,
-        color: hub1.color || '#ddc667',
+        r: 18,
+        color: '#efdb8f',
         growth: '+16.8%',
         isNeighbor: true,
         parentHubId: hub1.id,
@@ -1028,6 +1028,9 @@ export function NetworkTopologyView({ currency = 'INR', token }: NetworkTopology
                   <stop offset="0%" stopColor="#f3db7a" stopOpacity="0.7" />
                   <stop offset="100%" stopColor="#b88a44" stopOpacity="0.25" />
                 </linearGradient>
+                <marker id="arrowGold" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+                  <path d="M0,0 L0,6 L8,3 z" fill="#f3db7a" opacity="0.85" />
+                </marker>
               </defs>
 
               {/* ── 1. SEED MODE: Custom Directed Graph Topology for each Algorithm ── */}
@@ -1035,18 +1038,33 @@ export function NetworkTopologyView({ currency = 'INR', token }: NetworkTopology
                 <>
                   {/* BLII: Decagon perimeter ring mesh with criss-cross chords */}
                   {engine === 'blii' && seeds.length >= 6 && (
-                    <g className="opacity-70">
-                      <text x="380" y="260" textAnchor="middle" className="font-mono text-[9px] fill-[#7d7565] tracking-widest uppercase select-none">
-                        Decentralized Influence Mesh (10 Micro-Bridges)
+                    <g>
+                      {/* Background ring glow */}
+                      <ellipse cx="380" cy="262" rx="200" ry="155" fill="none" stroke="rgba(243,219,122,0.07)" strokeWidth="80" />
+                      {/* Center label */}
+                      <text x="380" y="264" textAnchor="middle" className="font-mono text-[8px] fill-[#7d7565] tracking-widest uppercase select-none">
+                        BLII · Decentralized Peer Mesh
                       </text>
+                      {/* Adjacent ring edges (perimeter) */}
                       {seeds.map((s, idx, arr) => {
                         const next = arr[(idx + 1) % arr.length];
+                        return (
+                          <line
+                            key={`blii-ring-${s.id}`}
+                            x1={s.x} y1={s.y} x2={next.x} y2={next.y}
+                            stroke="#f3db7a" strokeWidth="2.5" strokeOpacity="0.85"
+                          />
+                        );
+                      })}
+                      {/* Cross-chord influence bridges (+3 skip) */}
+                      {seeds.map((s, idx, arr) => {
                         const cross = arr[(idx + 3) % arr.length];
                         return (
-                          <g key={`blii-edges-${s.id}`}>
-                            <line x1={s.x} y1={s.y} x2={next.x} y2={next.y} stroke="#f3db7a" strokeWidth="2" strokeOpacity="0.8" />
-                            <line x1={s.x} y1={s.y} x2={cross.x} y2={cross.y} stroke="#4d3830" strokeWidth="1" strokeDasharray="3 3" />
-                          </g>
+                          <line
+                            key={`blii-chord-${s.id}`}
+                            x1={s.x} y1={s.y} x2={cross.x} y2={cross.y}
+                            stroke="#b88a44" strokeWidth="1.2" strokeDasharray="4 3" strokeOpacity="0.55"
+                          />
                         );
                       })}
                     </g>
@@ -1054,10 +1072,11 @@ export function NetworkTopologyView({ currency = 'INR', token }: NetworkTopology
 
                   {/* CELF++: Central Star Hub from macro anchor user_356 to satellites */}
                   {engine === 'celf' && seeds.length > 1 && (
-                    <g className="opacity-75">
-                      {/* Concentric Submodular Influence Orbits */}
-                      <circle cx={seeds[0].x} cy={seeds[0].y} r="85" fill="none" stroke="#f3db7a" strokeWidth="0.8" strokeDasharray="3 5" opacity="0.4" />
-                      <circle cx={seeds[0].x} cy={seeds[0].y} r="150" fill="none" stroke="#3e2c25" strokeWidth="0.8" strokeDasharray="2 4" opacity="0.3" />
+                    <g>
+                      {/* Submodular influence orbit rings */}
+                      <circle cx={seeds[0].x} cy={seeds[0].y} r="90" fill="rgba(243,219,122,0.04)" stroke="#f3db7a" strokeWidth="1" strokeDasharray="3 5" opacity="0.5" />
+                      <circle cx={seeds[0].x} cy={seeds[0].y} r="160" fill="none" stroke="#3e2c25" strokeWidth="1" strokeDasharray="2 5" opacity="0.4" />
+                      {/* Star hub spoke edges – hub to each satellite */}
                       {seeds.slice(1).map((s) => (
                         <line
                           key={`celf-edge-${s.id}`}
@@ -1066,13 +1085,20 @@ export function NetworkTopologyView({ currency = 'INR', token }: NetworkTopology
                           x2={s.x}
                           y2={s.y}
                           stroke="url(#edgeLineGrad)"
-                          strokeWidth="2.5"
-                          strokeDasharray="4 2"
+                          strokeWidth="3"
+                          strokeDasharray="5 3"
+                          strokeOpacity="0.9"
                         />
                       ))}
-                      {/* Secondary inter-satellite connections */}
-                      {seeds.length > 2 && <line x1={seeds[1].x} y1={seeds[1].y} x2={seeds[2].x} y2={seeds[2].y} stroke="#3e2c25" strokeWidth="1.2" />}
-                      {seeds.length > 4 && <line x1={seeds[3].x} y1={seeds[3].y} x2={seeds[4].x} y2={seeds[4].y} stroke="#3e2c25" strokeWidth="1.2" />}
+                      {/* Secondary inter-satellite arc connections */}
+                      {seeds.length > 2 && <line x1={seeds[1].x} y1={seeds[1].y} x2={seeds[2].x} y2={seeds[2].y} stroke="#4d3830" strokeWidth="1.5" strokeDasharray="3 4" opacity="0.6" />}
+                      {seeds.length > 3 && <line x1={seeds[2].x} y1={seeds[2].y} x2={seeds[3].x} y2={seeds[3].y} stroke="#4d3830" strokeWidth="1.5" strokeDasharray="3 4" opacity="0.6" />}
+                      {seeds.length > 4 && <line x1={seeds[3].x} y1={seeds[3].y} x2={seeds[4].x} y2={seeds[4].y} stroke="#4d3830" strokeWidth="1.5" strokeDasharray="3 4" opacity="0.6" />}
+                      {seeds.length > 2 && <line x1={seeds[4].x} y1={seeds[4].y} x2={seeds[1].x} y2={seeds[1].y} stroke="#4d3830" strokeWidth="1.5" strokeDasharray="3 4" opacity="0.6" />}
+                      {/* Hub label */}
+                      <text x={seeds[0].x} y={seeds[0].y + seeds[0].r + 38} textAnchor="middle" className="font-mono text-[8px] fill-[#7d7565] tracking-wider uppercase select-none">
+                        CELF++ · Submodular Star Hub
+                      </text>
                     </g>
                   )}
 
@@ -1253,45 +1279,112 @@ export function NetworkTopologyView({ currency = 'INR', token }: NetworkTopology
                     </g>
                   )}
 
-                  {/* Community: Intra-cluster bonds and bridge connections across clusters */}
-                  {engine === 'community' && seeds.length >= 6 && (
-                    <g className="opacity-60">
-                      {seeds.map((s, i) => {
-                        if (i % 2 === 0 && seeds[i + 1]) {
+                  {/* Community: Cluster ellipse territory backgrounds + intra-cluster bonds + cross bridges */}
+                  {engine === 'community' && seeds.length >= 6 && (() => {
+                    // Group seeds by community name (each pair shares a community string)
+                    const clusterColors = ['#f3db7a', '#fae280', '#c9c6bf', '#efdb8f', '#d9c67c'];
+                    const clusterBgs   = [
+                      'rgba(243,219,122,0.09)', 'rgba(250,226,128,0.08)',
+                      'rgba(201,198,191,0.08)', 'rgba(239,219,143,0.08)', 'rgba(217,198,124,0.09)'
+                    ];
+                    // Each pair of seeds (0-1, 2-3, 4-5, 6-7, 8-9) is one cluster
+                    const pairs: Array<[number, number]> = [[0,1],[2,3],[4,5],[6,7],[8,9]];
+                    return (
+                      <g>
+                        {/* Cluster territory ellipses */}
+                        {pairs.map(([a, b], ci) => {
+                          if (!seeds[a] || !seeds[b]) return null;
+                          const cx = (seeds[a].x + seeds[b].x) / 2;
+                          const cy = (seeds[a].y + seeds[b].y) / 2;
+                          const dx = Math.abs(seeds[b].x - seeds[a].x) / 2 + seeds[a].r + 28;
+                          const dy = Math.abs(seeds[b].y - seeds[a].y) / 2 + seeds[a].r + 28;
+                          const rx = Math.max(dx, 55);
+                          const ry = Math.max(dy, 42);
                           return (
-                            <line
-                              key={`comm-bond-${i}`}
-                              x1={s.x}
-                              y1={s.y}
-                              x2={seeds[i + 1].x}
-                              y2={seeds[i + 1].y}
-                              stroke="#fae280"
-                              strokeWidth="3"
-                            />
+                            <g key={`comm-territory-${ci}`}>
+                              <ellipse
+                                cx={cx} cy={cy} rx={rx} ry={ry}
+                                fill={clusterBgs[ci]}
+                                stroke={clusterColors[ci]}
+                                strokeWidth="1.4"
+                                strokeDasharray="6 4"
+                                opacity="0.85"
+                              />
+                              <text
+                                x={cx} y={cy - ry + 11}
+                                textAnchor="middle"
+                                className="font-mono text-[8px] font-bold select-none"
+                                fill={clusterColors[ci]}
+                                opacity="0.9"
+                              >
+                                {seeds[a].community.split('(')[1]?.replace(')', '') || `Cluster ${ci + 1}`}
+                              </text>
+                            </g>
                           );
-                        }
-                        return null;
-                      })}
-                      {/* Cross-cluster bridges */}
-                      <line x1={seeds[0].x} y1={seeds[0].y} x2={seeds[4].x} y2={seeds[4].y} stroke="#4d3830" strokeWidth="1.2" strokeDasharray="4 4" />
-                      {seeds.length > 4 && <line x1={seeds[2].x} y1={seeds[2].y} x2={seeds[4].x} y2={seeds[4].y} stroke="#4d3830" strokeWidth="1.2" strokeDasharray="4 4" />}
-                      {seeds.length > 8 && <line x1={seeds[6].x} y1={seeds[6].y} x2={seeds[8].x} y2={seeds[8].y} stroke="#4d3830" strokeWidth="1.2" strokeDasharray="4 4" />}
-                    </g>
-                  )}
+                        })}
+                        {/* Intra-cluster bonds (thick) */}
+                        <g opacity="0.75">
+                          {pairs.map(([a, b], ci) => {
+                            if (!seeds[a] || !seeds[b]) return null;
+                            return (
+                              <line
+                                key={`comm-bond-${ci}`}
+                                x1={seeds[a].x} y1={seeds[a].y}
+                                x2={seeds[b].x} y2={seeds[b].y}
+                                stroke={clusterColors[ci]}
+                                strokeWidth="3.5"
+                              />
+                            );
+                          })}
+                        </g>
+                        {/* Cross-cluster bridges (dashed thin) */}
+                        <g stroke="#b88a44" strokeWidth="1.2" strokeDasharray="5 4" opacity="0.5">
+                          {seeds[0] && seeds[4] && <line x1={seeds[0].x} y1={seeds[0].y} x2={seeds[4].x} y2={seeds[4].y} />}
+                          {seeds[2] && seeds[4] && <line x1={seeds[2].x} y1={seeds[2].y} x2={seeds[4].x} y2={seeds[4].y} />}
+                          {seeds[6] && seeds[8] && <line x1={seeds[6].x} y1={seeds[6].y} x2={seeds[8].x} y2={seeds[8].y} />}
+                          {seeds[1] && seeds[3] && <line x1={seeds[1].x} y1={seeds[1].y} x2={seeds[3].x} y2={seeds[3].y} />}
+                          {seeds[5] && seeds[7] && <line x1={seeds[5].x} y1={seeds[5].y} x2={seeds[7].x} y2={seeds[7].y} />}
+                        </g>
+                      </g>
+                    );
+                  })()}
 
                   {/* Temporal GNN: Triangular high-momentum velocity loop */}
-                  {engine === 'temporal' && seeds.length >= 3 && (
-                    <g className="opacity-80">
-                      <line x1={seeds[0].x} y1={seeds[0].y} x2={seeds[1].x} y2={seeds[1].y} stroke="#fae280" strokeWidth="3" strokeDasharray="6 3" />
-                      <line x1={seeds[1].x} y1={seeds[1].y} x2={seeds[2].x} y2={seeds[2].y} stroke="#fae280" strokeWidth="3" strokeDasharray="6 3" />
-                      <line x1={seeds[2].x} y1={seeds[2].y} x2={seeds[0].x} y2={seeds[0].y} stroke="#fae280" strokeWidth="3" strokeDasharray="6 3" />
-                      {/* Center momentum vortex */}
-                      <circle cx="380" cy="295" r="45" fill="none" stroke="#f3db7a" strokeWidth="1.2" strokeDasharray="3 6" className="animate-spin" />
-                      <text x="380" y="299" textAnchor="middle" className="font-mono text-[8px] fill-primary font-bold tracking-wider select-none">
-                        VELOCITY FLOW
-                      </text>
-                    </g>
-                  )}
+                  {engine === 'temporal' && seeds.length >= 3 && (() => {
+                    const triCx = Math.round((seeds[0].x + seeds[1].x + seeds[2].x) / 3);
+                    const triCy = Math.round((seeds[0].y + seeds[1].y + seeds[2].y) / 3);
+                    return (
+                      <g>
+                        {/* Glow halo behind triangle */}
+                        <polygon
+                          points={`${seeds[0].x},${seeds[0].y} ${seeds[1].x},${seeds[1].y} ${seeds[2].x},${seeds[2].y}`}
+                          fill="rgba(243,219,122,0.06)"
+                          stroke="none"
+                        />
+                        {/* Triangle edges – clockwise momentum arrows */}
+                        <line x1={seeds[0].x} y1={seeds[0].y} x2={seeds[1].x} y2={seeds[1].y} stroke="#fae280" strokeWidth="3.5" strokeDasharray="8 4" markerEnd="url(#arrowGold)" />
+                        <line x1={seeds[1].x} y1={seeds[1].y} x2={seeds[2].x} y2={seeds[2].y} stroke="#f3db7a" strokeWidth="3.5" strokeDasharray="8 4" markerEnd="url(#arrowGold)" />
+                        <line x1={seeds[2].x} y1={seeds[2].y} x2={seeds[0].x} y2={seeds[0].y} stroke="#ddc667" strokeWidth="3.5" strokeDasharray="8 4" markerEnd="url(#arrowGold)" />
+                        {/* Growth rate midpoint labels on each edge */}
+                        {[0, 1, 2].map((i) => {
+                          const a = seeds[i]; const b = seeds[(i + 1) % 3];
+                          const mx = (a.x + b.x) / 2; const my = (a.y + b.y) / 2;
+                          const g = seeds[i].growth || '';
+                          return g ? (
+                            <g key={`temp-label-${i}`}>
+                              <rect x={mx - 22} y={my - 10} width="44" height="14" rx="7" fill="#1c110d" stroke="#f3db7a" strokeWidth="0.8" opacity="0.92" />
+                              <text x={mx} y={my + 1} textAnchor="middle" className="font-mono text-[8.5px] fill-primary font-bold select-none">{g}</text>
+                            </g>
+                          ) : null;
+                        })}
+                        {/* Center momentum vortex */}
+                        <circle cx={triCx} cy={triCy} r="40" fill="rgba(243,219,122,0.07)" stroke="#f3db7a" strokeWidth="1.2" strokeDasharray="3 6" className="animate-spin" />
+                        <text x={triCx} y={triCy + 4} textAnchor="middle" className="font-mono text-[8px] fill-primary font-bold tracking-wider select-none">
+                          VELOCITY FLOW
+                        </text>
+                      </g>
+                    );
+                  })()}
 
                   {/* Satellites Orbit for CELF */}
                   {seeds.length > 0 && engine === 'celf' && (
@@ -1355,6 +1448,34 @@ export function NetworkTopologyView({ currency = 'INR', token }: NetworkTopology
                             <rect x="-44" y="-10" width="88" height="13" rx="6.5" fill="#f3db7a" />
                             <text x="0" y="-1" textAnchor="middle" className="font-mono text-[7.5px] fill-black font-extrabold tracking-wider select-none">
                               ★ AUTHORITY HUB #{idx + 1}
+                            </text>
+                          </g>
+                        ) : engine === 'celf' && idx === 0 ? (
+                          <g transform={`translate(${seed.x}, ${seed.y - seed.r - 8})`}>
+                            <rect x="-38" y="-10" width="76" height="13" rx="6.5" fill="#f3db7a" />
+                            <text x="0" y="-1" textAnchor="middle" className="font-mono text-[7.5px] fill-black font-extrabold tracking-wider select-none">
+                              ★ MACRO ANCHOR
+                            </text>
+                          </g>
+                        ) : engine === 'temporal' && seed.growth ? (
+                          <g transform={`translate(${seed.x}, ${seed.y - seed.r - 8})`}>
+                            <rect x="-28" y="-10" width="56" height="13" rx="6.5" fill="#78350f" stroke="#fae280" strokeWidth="0.8" />
+                            <text x="0" y="-1" textAnchor="middle" className="font-mono text-[8px] fill-[#fae280] font-extrabold tracking-wider select-none">
+                              ↑ {seed.growth}
+                            </text>
+                          </g>
+                        ) : engine === 'blii' ? (
+                          <g transform={`translate(${seed.x + seed.r + 6}, ${seed.y - 4})`}>
+                            <rect x="0" y="-7" width="22" height="13" rx="4" fill="#291d19" stroke={seed.color} strokeWidth="0.8" />
+                            <text x="11" y="2" textAnchor="middle" className="font-mono text-[8px] font-bold select-none" fill={seed.color}>
+                              #{idx + 1}
+                            </text>
+                          </g>
+                        ) : engine === 'community' && idx % 2 === 0 ? (
+                          <g transform={`translate(${seed.x}, ${seed.y - seed.r - 8})`}>
+                            <rect x="-28" y="-10" width="56" height="13" rx="6.5" fill="#1c110d" stroke={seed.color} strokeWidth="0.8" />
+                            <text x="0" y="-1" textAnchor="middle" className="font-mono text-[7px] font-bold select-none" fill={seed.color}>
+                              ◈ CLUSTER {Math.floor(idx / 2) + 1}
                             </text>
                           </g>
                         ) : null}
